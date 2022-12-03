@@ -1,0 +1,5 @@
+#STATEMENT
+iq = 100
+
+#STATEMENT
+user_age = iq/5 #EXPRESSION
