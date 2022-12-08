@@ -1,0 +1,16 @@
+class A:
+    num = 10
+
+class B(A):
+    pass
+
+class C (A):
+    num = 1
+
+class D(B,C):
+    pass
+
+#D INHERITANCE FROM B AND C.
+#C INHERITANCE FROM A THAT NUM = 10 BUT C REDIFINES NUM = 1
+#B INHETICANCE FROM A BUT HAS NO VALUE
+#A IS THE PARENT WITH NUM = 10
